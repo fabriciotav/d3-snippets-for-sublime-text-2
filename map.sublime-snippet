@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+var projection = d3.geo.${1:equirectangular}()
+    .center([${2:0}, ${3:0}])
+    .scale(${4:0})
+    .translate([width / 2, height / 2]);
+
+var path = d3.geo.path()
+    .projection(projection);
+]]></content>
+  <tabTrigger>map</tabTrigger>
+  <scope>source.js</scope>
+  <description>map -> projection and path</description>
+</snippet>

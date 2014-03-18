@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[d3.scale.${1:linear}().domain([$2]).range([$3]);]]></content>
+  <tabTrigger>scale</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.scale</description>
+</snippet>

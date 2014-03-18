@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[var dsv = d3.dsv('${1:;}', 'text/plain');]]></content>
+  <tabTrigger>dsv</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.dsv</description>
+</snippet>

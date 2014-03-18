@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+d3.csv('${1:/}', function(d) {
+  return {
+    $2
+  };
+}, function(err, rows) {
+  $3
+});
+]]></content>
+  <tabTrigger>csv</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.csv</description>
+</snippet>

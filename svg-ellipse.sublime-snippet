@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.enter().append('ellipse')
+    .attr('cx', $1)
+    .attr('cy', $2)
+    .attr('rx', $3)
+    .attr('ry', $4)
+    .style('fill', '${5:#000}');
+]]></content>
+  <tabTrigger>ellipse</tabTrigger>
+  <scope>source.js</scope>
+  <description>svg:ellipse</description>
+</snippet>

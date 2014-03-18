@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+.enter().append('circle')
+    .attr('cx', $1)
+    .attr('cy', $2)
+    .attr('r', $3)
+    .style('fill', '${4:#000}');
+]]></content>
+  <tabTrigger>circle</tabTrigger>
+  <scope>source.js</scope>
+  <description>svg:circle</description>
+</snippet>

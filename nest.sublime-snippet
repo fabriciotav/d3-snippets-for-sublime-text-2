@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+var ${1:nest} = d3.nest()
+    .key(function(d) { return ${2:d}; })
+    .entries(${3:[]});
+]]></content>
+  <tabTrigger>nest</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.nest</description>
+</snippet>

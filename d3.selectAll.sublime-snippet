@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[d3.selectAll('${1:.}')]]></content>
+  <tabTrigger>sela</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.selectAll</description>
+</snippet>

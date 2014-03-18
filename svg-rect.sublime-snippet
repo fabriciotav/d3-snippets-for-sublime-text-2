@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+.enter().append('rect')
+    .attr('x', $1)
+    .attr('y', $2)
+    .attr('width', $3)
+    .attr('height', $4)
+    .attr('rx', ${5:0})
+    .attr('ry', ${6:0})
+    .style('fill', '${7:#000}');
+]]></content>
+  <tabTrigger>rect</tabTrigger>
+  <scope>source.js</scope>
+  <description>svg:rect</description>
+</snippet>

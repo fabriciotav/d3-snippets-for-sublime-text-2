@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[d3.json('${1:/}', function(err, data) {
+  $2
+});]]></content>
+  <tabTrigger>json</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.json</description>
+</snippet>

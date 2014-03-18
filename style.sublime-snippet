@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[.style('${1:fill}', ${2:'#000'})]]></content>
+  <tabTrigger>style</tabTrigger>
+  <scope>source.js</scope>
+  <description>selection.style</description>
+</snippet>

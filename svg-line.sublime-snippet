@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+.enter().append('line')
+    .attr('x1', $1)
+    .attr('y1', $2)
+    .attr('x2', $3)
+    .attr('y2', $4)
+    .style('stroke', '${5:#000}');
+]]></content>
+  <tabTrigger>line</tabTrigger>
+  <scope>source.js</scope>
+  <description>svg:line</description>
+</snippet>

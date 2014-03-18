@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[function(d) { return $1; }]]></content>
+  <tabTrigger>fd</tabTrigger>
+  <scope>source.js</scope>
+  <description>function(d) { return d; }</description>
+</snippet>

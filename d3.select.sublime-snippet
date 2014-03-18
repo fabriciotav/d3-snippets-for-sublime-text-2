@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[d3.select('$1')$2]]></content>
+  <tabTrigger>sel</tabTrigger>
+  <scope>source.js</scope>
+  <description>d3.select</description>
+</snippet>
